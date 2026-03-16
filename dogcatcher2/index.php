@@ -151,18 +151,15 @@ include('includes/header.php');
                 <input type="text" name="fullname" class="form-control bg-light border-0" placeholder="Juan Dela Cruz" required>
               </div>
               <div class="mb-3">
-                <label class="form-label small fw-bold">Barangay</label>
-                <select name="barangay" class="form-select bg-light border-0" required>
-                  <option value="" disabled selected>Select Barangay</option>
-                  <option value="Kayvaluganan">Kayvaluganan</option>
-                  <option value="Kaychanarianan">Kayhuvokan</option>
-                  <option value="Kaychanarianan">Kaychanarianan</option>
-                  <option value="San Joaquin">San Joaquin</option>
-                  <option value="San Antonio">San Antonio</option>
-                  <option value="San Antonio">Tukon</option>
-                  <option value="San Antonio">Chanarian</option>
-                </select>
-              </div>
+    <label class="form-label small fw-bold">Barangay</label>
+    <select name="barangay" class="form-select bg-light border-0" required>
+        <option value="" disabled selected>Select Barangay</option>
+        <option value="Kayvaluganan">Kayvaluganan</option>
+        <option value="Kayhuvokan">Kayhuvokan</option> <option value="Kaychanarianan">Kaychanarianan</option>
+        <option value="San Joaquin">San Joaquin</option>
+        <option value="San Antonio">San Antonio</option>
+        <option value="Tukon">Tukon</option> <option value="Chanarian">Chanarian</option> </select>
+</div>
               <div class="mb-3">
                 <label class="form-label small fw-bold">Contact Number</label>
                 <input type="text" name="contact" class="form-control bg-light border-0" placeholder="0917-000-0000" required>

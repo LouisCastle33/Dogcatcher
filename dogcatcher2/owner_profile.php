@@ -38,7 +38,7 @@ $my_dogs = $dogs->fetchAll();
                     </div>
                     <div>
                         <label class="small text-muted d-block">Address</label>
-                        <span class="fw-bold text-dark small"><?php echo $o['address'] ?: 'N/A'; ?></span>
+                        <span class="fw-bold text-dark small"><?php echo $o['barangay'] ?: 'N/A'; ?></span>
                     </div>
                 </div>
 
