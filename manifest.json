@@ -1,0 +1,23 @@
+{
+  "name": "Basco Pet Registry",
+  "short_name": "BascoPets",
+  "start_url": "scanner.php",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#004a99",
+  "theme_color": "#004a99",
+  "icons": [
+    {
+      "src": "LGU.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "LGU.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
